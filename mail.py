@@ -64,8 +64,11 @@ class Mail:
 if __name__ == '__main__':
     subject = "测试"
     to_address_list = ['XXX@bupt.edu.cn', 'XXX@hotmail.com']
+    # mail content
     content = "测试邮件"
+    # attachment file path
     att_file_list = ['/home/my/before314/helloworld/analyse/pic/9.png', '/home/my/before314/helloworld/analyse/pic/99.png']
+    # attachment file name with file suffixes
     att_file_name = ['9.png', '99.png']
     conf = {"from_address": "XXXX@bupt.edu.cn", "from_address_pwd": "XXXX", "smtp": "mail.bupt.edu.cn"}
     m = Mail(conf)
