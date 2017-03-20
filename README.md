@@ -1,5 +1,9 @@
 # emailATbupt
-a Python script for sending emails via BUPT servers
+A Python script for sending emails via BUPT servers
+
+### Dependencies
+1. Python 3
+2. A PC connected to BUPT Campus Network and an BUPT email address.
 
 ### Usage
 1. replace all XXX in mail.py
